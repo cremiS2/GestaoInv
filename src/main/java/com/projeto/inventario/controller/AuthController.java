@@ -22,7 +22,8 @@ import com.projeto.inventario.service.TokenService;
 
 @RestController
 @RequestMapping(value = "/auth")
-@CrossOrigin("*")
+@CrossOrigin(origins = "http://localhost:3000")
+
 public class AuthController {
 
     @Autowired

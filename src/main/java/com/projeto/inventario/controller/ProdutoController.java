@@ -21,7 +21,7 @@ import com.projeto.inventario.service.ProdutoService;
 
 @RestController
 @RequestMapping(value = "/produto")
-@CrossOrigin("*")
+@CrossOrigin(origins = "localhost:3000")
 public class ProdutoController {
 
 	@Autowired

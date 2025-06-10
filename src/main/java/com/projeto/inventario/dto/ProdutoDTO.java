@@ -12,7 +12,7 @@ public class ProdutoDTO {
 	public ProdutoDTO() {
 	}
 
-	public ProdutoDTO(Long id, String codigo, String descricao, String nome, float preco, String medida, String imgUrl) {
+	public ProdutoDTO(Long id, String descricao, String nome, float preco, String imgUrl) {
 		this.id = id;
 		this.descricao = descricao;
 		this.nome = nome;
@@ -53,6 +53,7 @@ public class ProdutoDTO {
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
+
 	public String getImgUrl() {
 		return imgUrl;
 	}

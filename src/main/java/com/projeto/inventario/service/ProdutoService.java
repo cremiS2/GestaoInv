@@ -20,7 +20,6 @@ public class ProdutoService {
 	public ProdutoDTO salvarProduto(ProdutoDTO dto) {
 		Produto produto = new Produto();
 		
-		
 		produto.setDescricao(dto.getDescricao());
 		produto.setPreco(dto.getPreco());
 		produto.setImgUrl(dto.getImgUrl());
